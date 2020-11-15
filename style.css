@@ -1,0 +1,62 @@
+body{
+cursor: grab;
+background:radial-gradient(whitesmoke,skyblue,cyan,blue);
+}
+*{
+    text-align: center;
+}
+.info ul{
+    
+    display: flex;
+    justify-content: center;
+   margin-bottom: -25px;
+   cursor: pointer;
+}
+.info li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic;
+    color: white;
+    margin:25px;
+}
+.info{
+    
+    background: url("https://image.cnbcfm.com/api/v1/image/103135046-GettyImages-110022758.jpg?v=1446585058");
+    height:120vh;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 5px gold,0 0 10px red,0 0 20px blue;
+}
+.info div{
+    cursor: grabbing;
+    margin-left: 60vh;
+    text-shadow: 0 0 5px gold,0 0 10px red;
+    color: white;
+    font-size: 25px;
+    width: 75vh;
+}
+h2{
+    font-size: 30px;
+   
+    text-shadow: 0 0 5px gold,0 0 10px red;
+}
+.abt div{
+
+    margin-top:20px;
+    padding: 10px;
+    border:10px ridge black;
+    width:45%;
+    box-shadow: 0 0 6px white, 0 0 16px blue, 0 0 22px red;
+
+}
+.abt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.raj{
+    width: 100%;
+}
